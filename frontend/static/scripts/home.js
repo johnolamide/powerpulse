@@ -18,8 +18,8 @@ $(document).ready(() => {
 
         // create the donut chart
         let donut = $('<div></div>').addClass('donut');
-        donut.css('background', `conic-gradient(#f67 ${percentage}%,
-       #38ef7d ${percentage}% 100%)`);
+        donut.css('background', `conic-gradient(#c03221 ${percentage}%,
+       #06ba63 ${percentage}% 100%)`);
 
         // Create the labels
         let label = $('<div></div>').addClass('label');
