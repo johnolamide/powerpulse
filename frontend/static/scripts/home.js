@@ -42,7 +42,7 @@ $(document).ready(() => {
         let visual = $('<div></div>').addClass('visual');
         visual.append(chart, description);
 
-        homeBox.append(homeId, temperature, humidity);
+        homeBox.append(homeId, humidity, temperature);
         display.append(homeId.clone(), visual);
 
         let article = $('<article></article>');
