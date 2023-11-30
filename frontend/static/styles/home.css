@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #174AE4;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+    background: white;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+header h1 {
+    margin-left: 20px;
+    background: linear-gradient(to top, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body .container {
+    max-width: 1000px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.homes {
+    column-count: 3;
+    columns: 30em;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 1%;
+    margin-bottom: 8%;
+}
+
+.display {
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 1%;
+    margin-bottom: 8%;
+}
+
+@media only screen and (max-width: 920px)
+{   
+    .homes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .display {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.homes article {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid transparent;
+    background:
+      linear-gradient(#ffffff, #ffffff) padding-box,
+      linear-gradient(to left, #11998e, #38ef7d) border-box;
+    border-radius: 30px;
+}
+
+.homeBox h1 {
+    font-size: 20px;
+    background: linear-gradient(to top, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.display h1 {
+    background: linear-gradient(to top, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.visual {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .visual {
+        flex-direction: column;
+    }
+
+    .display article {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+.chart {
+    display: flex;
+}
+
+.donut {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #f00;
+    position: relative;
+    background: conic-gradient(#38ef7d 75%, #ff3 75% 100%);
+    mask: radial-gradient(farthest-side, transparent calc(100% - 25px), black calc(100% - 24px));
+}
+
+.label {
+    margin-left: 20px;
+}
+
+#used {
+    color: #f67;
+}
+
+#unused {
+    color: #38ef7d;
+}
+
+.description {
+    width: 400px;
+    height: 250px;
+    border: 2px solid transparent;
+    background:
+      linear-gradient(#ffffff, #ffffff) padding-box,
+      linear-gradient(to left, #11998e, #38ef7d) border-box;
+    border-radius: 30px;
+}
+
+article.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article.description p {
+    padding: 0px 20px;
+    text-align: center;
+    background: linear-gradient(to top, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    position: fixed;
+    background: white;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #CCCCCC;
+}
+
+footer p {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to top, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
