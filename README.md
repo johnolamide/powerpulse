@@ -24,3 +24,5 @@ In places where power supply can be scarce, every watt counts. That’s why Powe
 Imagine being able to see your energy usage in real-time, right at your fingertips. Well, with PowerPulse, that future is not far off! We’re constantly working to enhance your experience and bring you the most cutting-edge features.
 
 So, are you ready to join the PowerPulse revolution and make every watt count? Stay tuned for more updates!
+
+Click [here](https://www.qkiu.tech/powerpulse) to try PowerPulse
